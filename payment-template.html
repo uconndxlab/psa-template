@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+
+    #full-page{
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    #first-row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #department-name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+    
+
+    .subheding4{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-weight: 100;
+    }
+
+    #doc-title{
+        margin-bottom: 5px;
+    }
+
+    #small-box{
+        width: 60%;
+        border: 1px black solid;
+    }
+
+    .small-text{
+        font-size: 9px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+    }
+
+    #table1{
+        width: 70%;
+    }
+
+    #table2{
+        width:100%;
+    }
+
+    #table3{
+        width:100%;
+    }
+
+    #table4{
+        width:100%;
+    }
+
+    #table5{
+        width:100%;
+    }
+
+    #table6{
+        width:100%;
+    }
+
+    #table7{
+        width:100%;
+    }
+
+    #table8{
+        width:100%;
+    }
+
+    #table9{
+        width:100%;
+    }
+
+    #table10{
+        width:55%;
+    }
+
+    #table11{
+        width:28%;
+    }
+    
+    #table12{
+        width:100%;
+    }
+
+    #table-split{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .med{
+        font-size: 13px;
+    }
+
+
+    .section-header{
+        margin-bottom: 5px;
+    }
+
+    th{
+        background-color: #bcbcbc;
+    }
+
+    .light{
+        background-color: #e0e0e0;
+    }
+
+    
+</style>
+
+
+<body>
+    
+<div id="full-page">
+    <div id="first-row">
+        <div id="PSA-title">
+            <h1 id="doc-title">Personal Service Agreement</h1>
+            <h4 class="subheding4">ALTERNATE FORM CO-802A Rev. Feb 2010</h4>
+
+    
+        </div>
+
+        <div id="department-name">
+            <p style="margin-bottom: 5px;">University of Connecticut</p>
+            <p style="margin-top: 5px;">Purchasing Department</p>
+        </div>
+    </div>
+
+    <div id="second-row">
+        <p id="small-box" class="med">All Parties Are Informed That No Work May Begin On This Contract Until It Is
+            Fully Executed And Approved By The Office of the Attorney General, if
+            required</p>
+        
+        <p class="small-text">2. THE UNIVERSITY AND THE CONTRACTOR AS LISTED BELOW HEREBY ENTER INTO AN AGREEMENT SUBJECT TO THE TERMS AND CONDITIONS STATED HEREIN AND/OR ATTACHED
+            HERETO AND SUBJECT TO THE PROVISIONS OF SECTION 4-98 OF THE CONNECTICUT GENERAL STATUES AS APPLICABLE.</p>
+
+        <p class="small-text">3. ACCEPTANCE OF THIS CONTRACT IMPLIES CONFORMANCE WITH TERMS AND CONDITIONS SET FORTH HEREIN.</p>
+
+        <p class="small-text">4. THIS AGREEMENT SHALL REMAIN IN FULL FORCE AND EFFECT FOR THE ENTIRE TERM OF THE CONTRACT PERIOD STATED BELOW UNLESS CANCELLED BY THE UNIVERSITY, BY
+            GIVING THE CONTRACTOR WRITTEN NOTICE OF SUCH INTENTION.</p>
+    </div>
+
+
+    <div id="tablee">
+        <table id="table1">
+            <tr>
+                <th>PSA ID#</th>
+                <th>Contract Period (From-To)</th>
+                <th>Required # of Days Written Notice To Cancel</th>
+            </tr>
+
+            <tr>
+                <td id="input-PSA-ID">&nbsp;</td>
+                <td id="input-Contraact-period">&nbsp;</td>
+                <td id="input-number-of-days">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div >
+        <h3 class="section-header">University Information</h3>
+        <table id="table2">
+            <tr>
+                <th>Agency Name</th>
+                <th>Agency #</th>
+                <th>Department</th>
+                <th>Contact Phone</th>
+            </tr>
+
+            <tr>
+                <td id="input-agency-name">&nbsp;</td>
+                <td id="input-agency-number">&nbsp;</td>
+                <td id="input-department">&nbsp;</td>
+                <td id="input-contact-phone">&nbsp;</td>
+            </tr>
+        </table>
+
+        <table id="table3">
+            <tr>
+                <th>Contact Name</th>
+                <th>Department Address</th>
+            </tr>
+
+            <tr>
+                <td id="input-contact-name">&nbsp;</td>
+                <td id="input-department-address">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+    <div >
+        <h3 class="section-header">Contractor Information</h3>
+        <table id="table4">
+            <tr>
+                <th>Contractor Name</th>
+                <th>Phone</th>
+                <th>Email Address</th>
+                <th>FEIN#</th>
+            </tr>
+
+            <tr>
+                <td id="input-contractor-name">&nbsp;</td>
+                <td id="input-phone">&nbsp;</td>
+                <td id="input-email">&nbsp;</td>
+                <td id="input-FEIN">&nbsp;</td>
+            </tr>
+        </table>
+
+        <table id="table5">
+            <tr>
+                <th>Address</th>
+            </tr>
+
+            <tr>
+                <td id="input-address">&nbsp;</td>
+            </tr>
+        </table>
+
+        <table id="table6">
+            <tr>
+                <th>Primary Contact Name</th>
+                <th>Primary Contact Title</th>
+                <th>State Employee (Yes/No)</th>
+                <th>Contractor Type</th>
+                <th>US Citizen (Yes/No)</th>
+        
+            </tr>
+
+            <tr>
+                <td id="input-prim-contact-name">&nbsp;</td>
+                <td id="input-prim-contact-title">&nbsp;</td>
+                <td id="input-state-employee-status">&nbsp;</td>
+                <td id="input-contractor-type">&nbsp;</td>
+                <td id="input-us-citizen">&nbsp;</td>
+            
+            </tr>
+        </table>
+
+        <table id="table7">
+            <tr>
+                <th>Visa Type (if not US Citizen)</th>
+                <th>Country (if not US Citizen)</th>
+                <th>If University-Affilited Entity, Please Descripe Relationship</th>
+            </tr>
+
+            <tr>
+                <td id="input-visa">&nbsp;</td>
+                <td id="input-country">&nbsp;</td>
+                <td id="input-university-affiliation">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <div >
+        <h3 class="section-header">Description of Services</h3>
+        <table id="table8">
+            <tr>
+                <th>CONTRACTOR AGREES TO:</th>
+            </tr>
+
+            <tr>
+                <td id="input-contractor-agrees-to">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <div >
+        <h3 class="section-header">Cost and Payment Schedule</h3>
+        <table id="table9">
+            <tr>
+                <th> PAYMENT TO BE MADE UNDER THE FOLLOWING SCHEDULE UPON RECEIPT OF PROPERLY EXECUTED AND APPROVED INVOICES</th>
+            </tr>
+
+            <tr>
+                <td id="input-payment-info">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <div >
+    
+        <h3 class="section-header">Financial Information</h3>
+
+        <div id="table-split">
+        <table id="table10">
+            <tr>
+                <th>Committed Amount</th>
+                <th>Fund</th>
+                <th>SID</th>
+                <th>Account</th>
+                <th>Subcode</th>
+                <th>Fiscial Year</th>
+            </tr>
+
+            <tr>
+                <td id="input-comitted-amount-row1">&nbsp;</td>
+                <td id="input-fund-row1">&nbsp;</td>
+                <td id="input-SID-row1">&nbsp;</td>
+                <td id="input-account-row1">&nbsp;</td>
+                <td id="input-subcode-row1">&nbsp;</td>
+                <td id="input-fiscial-year-row1">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td id="input-comitted-amount-row2">&nbsp;</td>
+                <td id="input-fund-row2">&nbsp;</td>
+                <td id="input-SID-row2">&nbsp;</td>
+                <td id="input-account-row2">&nbsp;</td>
+                <td id="input-subcode-row2">&nbsp;</td>
+                <td id="input-fiscial-year-row2">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td id="input-comitted-amount-row3">&nbsp;</td>
+                <td id="input-fund-row3">&nbsp;</td>
+                <td id="input-SID-row3">&nbsp;</td>
+                <td id="input-account-row3">&nbsp;</td>
+                <td id="input-subcode-row3">&nbsp;</td>
+                <td id="input-fiscial-year-row3">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td id="input-comitted-amount-row4">&nbsp;</td>
+                <td id="input-fund-row4">&nbsp;</td>
+                <td id="input-SID-row4">&nbsp;</td>
+                <td id="input-account-row4">&nbsp;</td>
+                <td id="input-subcode-row4">&nbsp;</td>
+                <td id="input-fiscial-year-row4">&nbsp;</td>
+            </tr>
+        </table>
+
+
+
+        <table id="table11">
+            <tr>
+                <th>Maximum Amount Payable</th>
+            </tr>
+
+            <tr>
+                <td id="input-max-amount">&nbsp;</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+
+    <div>
+
+        <p class="med">An individual entering into a Personal Service Agreement with the State of Connecticut is contracting under a "work-for-hire" arrangement. As such, the individual is an independent contractor, and does not satisfy the
+            characteristics of an employee under the common law rules for determining the employer/employee relationship of Internal Revenue Code Section 3121 (d)(2). Individuals performing services as independent contactors
+            are not employees of the State of Connecticut and are responsible themselves for payment of all State and local income taxes, federal income taxes and Federal Insurance Contribution Act (FICA) taxes, except for CT
+            non-resident Athlete/Entertainer Tax.</p>
+
+    </div>
+
+
+    <div>
+        <table id="table12">
+            <tr>
+                <th>ACCEPANCES ANDAPPROVALS</th>
+                <th colspan="2">Statutory Authority - 10a-104, 10a-108</th>
+            </tr>
+
+            <tr>
+                <td class="light">CONTRACTOR (OWNER OR AUTHORIZED SIGNATURE)</td>
+                <td class="light">TITLE</td>
+                <td class="light">DATE</td>
+            </tr>
+
+            <tr>
+                <td id="input-contractor-owner">&nbsp;</td>
+                <td id="input-title-row1">&nbsp;</td>
+                <td id="input-date-row1">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td class="light">AGENCY (AUTHORIZED OFFICIAL)</td>
+                <td class="light">TITLE</td>
+                <td class="light">DATE</td>
+            </tr>
+
+            <tr>
+                <td id="input-agency-official">&nbsp;</td>
+                <td id="input-title-row2">&nbsp;</td>
+                <td id="input-date-row2">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td class="light">ATTORNEY GENERAL (APPROVED AS TO FORM)</td>
+                <td class="light">TITLE</td>
+                <td class="light">DATE</td>
+            </tr>
+
+            <tr>
+                <td id="input-attourney-general">&nbsp;</td>
+                <td id="input-title-row3">&nbsp;</td>
+                <td id="input-date-row3">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <div id="terms">
+
+
+        <h4 class="section-header">CONTRACTOR AGGREES TO:</h4>
+
+
+        <p class="med">1. DESCRIPTION OF WORK:</p>
+        <p class="med" id="input-description">&nbsp;</p>
+
+        <p class="med">2. FORCE MAJEURE: If the Contractor's performance is rendered impossible or hazardous or is otherwise prevented or impaired due to sickness, accident, interruption or failure of means 
+            of transportation, Act(s) of God, riots, strikes, labor difficulties, epidemics, earthquakes, and/or any other cause or event, similar or dissimilar, beyond the control of the Contractor or University, 
+            then each party's obligations to the other under this Agreement shall be excused and neither party shall have any liability to the other under or in connection with this Agreement. For purposes of this 
+            document, a declaration of a state of emergency by the Governor of the State of Connecticut shall constitute a condition beyond the reasonable control of the University.</p>
+
+        <p class="med">3. CANCELLATION OF IN-PERSON ACTIVITIES BY UNIVERSITY: In the event of a force majeure circumstance or a recommendation by i) the Governor or ii) the State of Connecticut or iii) the University 
+            that affects the University's ability to continue in-person activities, both parties agree to reschedule to the first date and time that is mutually agreeable to bothsides. If the event cannot be rescheduled to a mutually agreed</p>
+
+        <p class="med">4. UNIVERSITY POLICIES: The Contractor shall, at no additional cost to the University, comply with all policies and procedures of the University. Current policies are available at 
+            http://policy.uconn.edu/ and include, without limitation, the University's smoking policy available at http://policy.uconn.edu/2011.06.02/smoking/. In the event the University establishes
+            new policies or procedures following issuance of this Agreement, or makes modifications to policies or procedures in existence at the time of such issuance, the Contractor shall comply with such new 
+            or modified policies or procedures upon written notice. Contractor and/or Artist shall be given a notice regarding any alleged breach.</p>
+
+        <p class="med">5. WITHHOLDING TAXES: The Connecticut State Department of Revenue Services has issued Policy Statement PS 2018(1) regarding Income Tax Withholding for Athletes and Entertainers under the 
+            Connecticut General Statue 12-705. The University of Connecticut therefore is required to withhold CT Income Tax at the maximum applicable rate where the aggregate annual gross payment exceeds $1,000.00. 
+            The Department of Revenue Services (860) 541-4550 can grant a reduction or elimination of the withholding, but the paperwork must be initiated by the Contractor. NOTE: Contract and W-9 should be forwarded to 
+            the University; withholding forms sent to the Department of Revenue Services.</p>
+        
+        <p class="med">6. COUNTERPARTS: This Contract or Amendment (as the case may be) may be executed in counterparts, and each counterpart shall have the same force and effect as an original and, when taken together, 
+            shall constitute one and the same instrument and an effective binding agreement on the part of each of the undersigned. Execution of a facsimile or PDF copy shall have the same force and effect as execution of 
+            an original. Signed copies of this Contract may be faxed and e-mailed with the same force and effect as if the originally executed Agreement had been delivered.</p>
+
+        <p class="med">7. ENTIRE AGREEMENT: This written Agreement shall constitute the entire agreement of the parties and no other terms and conditions in any document, acceptance or acknowledgements shall be effective or 
+            binding unless expressly agreed to in writing by the University. This Agreement may not be changed other than by a formal written amendment signed by the parties hereto. </p>
+    </div>
+
+</div>
+</body>
+</html>
