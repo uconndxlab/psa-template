@@ -11,6 +11,39 @@
         width: 96%;
         margin: 0 auto;
     }
+
+    .row-gap20{
+        display: flex;
+        gap:20px;
+        align-items: center;
+    }
+
+    .row-title{
+        display: flex;
+        gap:6px;
+    }
+
+    .box{
+        border: solid black 1.5px;
+        margin-top:5px;
+    }
+
+    .bottom-margin{
+        margin-bottom: 5px;
+    }
+
+    .signature-row{
+        display: flex;
+        gap: 22px;
+    }
+
+    .signature{
+        display: flex;
+    }
+
+    .section-space{
+        margin-bottom: 65px;
+    }
 </style>
 
 
@@ -19,6 +52,118 @@
     <div id="full-page">
 
 
+        <div class="row-title" id="row1">
+            <h2>Justification For PSA#</h2>
+            <h2 id="input-PSA-num"> &nbsp;</h2>
+        </div>
+
+        <div class="row-gap20" id="row2">
+            <h4 class="bottom-margin">1. Contractor Name</h4>
+            <p class="bottom-margin" id="input-contractor-name">&nbsp;</p>
+        </div>
+
+        <div class="row-gap20" id="row3">
+            <h4 class="bottom-margin">2. Dates of Service</h4>
+            <p class="bottom-margin" id="input-start-date">&nbsp;</p>
+            <p class="bottom-margin">to</p>
+            <p class="bottom-margin" id="input-end-date">&nbsp;</p>
+        </div>
+
+        <div class="row-gap20" id="row4">
+            <h4 class="bottom-margin" >3. Maximum Amount Payable to Contractor:</h4>
+            <p class="bottom-margin" id="input-max-amount">&nbsp;</p>
+        </div>
+
+        <div class="row-gap20" id="row5">
+            <h4 class="bottom-margin">4. Name of Department/School Initiating PSA:</h4>
+            <p class="bottom-margin" id="input-name-department">&nbsp;</p>
+        </div>
+
+        <div id="row6">
+            <h4 class="bottom-margin">5. Brief Description of Services Contractor to perform:</h4>
+            <p class="box" id="input-description-of-services">&nbsp;</p>
+        </div>
+
+        <div id="row7">
+            <h4 class="bottom-margin">6. The source of funding & program associated with the contract (ex. Federal Grant for Husky Research Program). Be Specific.</h4>
+            <p class="box" id="input-funding-source">&nbsp;</p>
+        </div>
+
+        <div id="row8">
+            <h4 class="bottom-margin">7. The reason for procuring services outside of the University:</h4>
+            <p class="box" id="input-reasoning">&nbsp;</p>
+        </div>
+
+        <div id="row9" class="section-space">
+            <h4 class="bottom-margin">8. The consequences to the University of NOT entering into the agreement with the contractor:</h4>
+            <p class="box" id="input-consequences">&nbsp;</p>
+        </div>
+
+
+
+        <h3>TWO SIGNATURES REQUESTED</h3>
+
+        <div id="department">
+            <h4 class="bottom-margin">Department Head</h4>
+
+            <div class="signature-row">
+                <div class="signature">
+                    <p class="bottom-margin">Printed Name:</p>
+                    <p class="bottom-margin" id="input-printedname-department">_____________________</p>
+                </div>
+
+                <div class="signature">
+                    <p class="bottom-margin">Signature:</p>
+                    <p class="bottom-margin" id="input-signature-department">_____________________</p>
+                </div>
+
+                <div class="signature">
+                    <p class="bottom-margin">Date:</p>
+                    <p class="bottom-margin" id="input-signature-department">____________</p>
+                </div>
+
+            </div>
+
+            <div class="signature-row">
+                <div class="signature">
+                    <p >Title:</p>
+                    <p id="input-title-department">_____________________</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id="other">
+            <h4 class="bottom-margin">Dean, Director, or AVP</h4>
+
+            <div class="signature-row">
+                <div class="signature">
+                    <p class="bottom-margin">Printed Name:</p>
+                    <p class="bottom-margin" id="input-printedname-other">_____________________</p>
+                </div>
+
+                <div class="signature">
+                    <p>Signature:</p>
+                    <p class="bottom-margin"  id="input-signature-other">_____________________</p>
+                </div>
+
+                <div class="signature">
+                    <p class="bottom-margin" >Date:</p>
+                    <p class="bottom-margin" id="input-signature-other">____________</p>
+                </div>
+
+            </div>
+
+            <div class="signature-row">
+                <div class="signature">
+                    <p>Title:</p>
+                    <p id="input-title-other">_____________________</p>
+                </div>
+            </div>
+
+        </div>
 
 
 
