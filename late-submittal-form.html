@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #full-page{
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .under{
+        text-decoration: underline;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+
+    
+
+    .box{
+        border: solid black 1.5px;
+        margin-top:5px;
+    }
+
+    .bottom-margin{
+        margin-bottom: 5px;
+    }
+
+    .top-margin{
+        margin-top: 5px;
+    }
+
+
+    .right-margin{
+        margin-right: 5px;
+    }
+
+    #row1{
+        display: flex;
+        align-items: center;
+        gap:20px;
+    }
+
+    #row2{
+        display: flex;
+        align-items: center;
+    }
+
+    #row3{
+        display: flex;
+        align-items: center;
+    }
+
+
+    #row4{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .section{
+        display: flex;
+        gap:6px;
+        align-items: center;
+    }
+</style>
+<body>
+
+    <div id="full-page">
+
+        <h2 class="under">PSA - Late Submittal Form</h2>
+        <h3 class="under">NOTE: This form must accompany all PSAs that are not submitted for approval prior to the start of contracted services.</h3>
+
+        <p>Submitting a State contract for approval after the start of the contract period is a clear
+            violation of State Contracting Policies and Procedures.  During State audit reviews the
+            University has been cited for such violations.  Therefore it is extremely important that all
+            departments submit PSAs for approval prior to the start date of the contract period.</p>
+
+        <p class="center">* * *</p>
+
+        <p>PSAs valued at $3,000 or greater must be submitted at least 60 business days prior to the start
+            date fo the contract.</p>
+
+        <p>PSAs valued at less than $3,000 must be submitted at least 30 business days prior to the start
+            date of the contract</p>
+        
+        <p>Contracts without grant funding must be submitted for approval to: Office of the Vice
+            President and Chief Operating Officer, U-2014.</p>
+
+
+        <p>Contracts with grant funding must be submitted for approval to: Office of Sponsored
+            Programs, U-4133.</p>
+
+        <p class="center">* * *</p>
+
+
+        <div id="row1">
+            <div class="section">
+                <h3 class="bottom-margin top-margin">PSA #:</h3> 
+                <p id="input-PSA-number" class="bottom-margin top-margin"> &nbsp;</p>
+            </div>
+            
+            <div class="section">
+                <h3 class="bottom-margin top-margin">Department:</h3> 
+                <p class="bottom-margin top-margin" id="input-department"> &nbsp;</p>
+            </div>
+            
+        </div>
+
+
+
+        <div id="row2">
+            <div class="section"> 
+                <h3 class="bottom-margin top-margin">Name of Contractor:</h3>
+                <p class="bottom-margin top-margin" id="input-contractor-name"> &nbsp;</p>
+            </div>
+            
+        </div>
+
+
+        <div id="row3">
+            <div class="section"> 
+                <h3 class="bottom-margin top-margin">Contract Period:</h3> 
+                <p class="bottom-margin top-margin" id="input-start-date"> &nbsp;</p> 
+                <p class="bottom-margin top-margin">to</p> 
+                <p class="bottom-margin top-margin " id="input-end-date"> &nbsp;</p> 
+            </div>
+        </div>
+
+        <h3 class="bottom-margin">Please explain in deail why PSA was submitted after the start date:</h3>
+        <p class="box" id="input-late-explain">&nbsp;</p>
+
+
+        <h3 class="bottom-margin">Please indicate what procedures you have established to help reduce any late submittals in the future:</h3>
+        <p class="box" id="input-procedures">&nbsp;</p>
+
+
+
+
+        <div id="row4">
+            <div class="section"><p>Signature (Dean, Director, Dept. Head):</p> <p id="input-signature-line">___________________________</p></div>
+            <div class="section"><p >Date:</p> <p id="input-date-line">__________________</p></div>
+        </div>
+        
+    
+    </div>
+    
+</body>
+</html>
