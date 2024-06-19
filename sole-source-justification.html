@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #full-page{
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    #smaller-page{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    #uc{
+        color: #a8a8a8;
+        font-size: 40px;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .large-txt{
+        font-size: 30px;
+    }
+
+    #UCONN{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
+
+    .btm-margin{
+        margin-bottom: 5px;
+    }
+
+    .top-margin{
+        margin-top: 5px;
+    }
+
+
+    .row{
+        display:flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+    }
+
+    th{
+        background-color: #bcbcbc;
+    }
+
+    #table1{
+        width:100%;
+    }
+
+    #table2{
+        width:100%;
+    }
+
+    .bottom-margin{
+        margin-bottom: 5px;
+    }
+
+    .box{
+        border: solid black 1.5px;
+        margin-top:5px;
+    }
+</style>
+
+
+<body>
+
+
+
+    <div id="smaller-page">
+
+
+        <div id="UCONN">
+            <img  class="btm-margin" height="100" width="100" src="/images/oak-leaf-blue.png">
+            <p class="top-margin btm-margin" id="uc">University of Connecticut</p>
+            <p class="large-txt">Purchasing Department</p>
+        </div>
+
+        <p>The Sole Source Justification Questionnaire is to be completed for all non-grant 
+            funded Personal Service Agreements.</p>
+
+        <p>The sole source justification required must include the unique features of the service requested.</p>
+
+        <ul>
+            <li>If this service is available from other vendors you must tell us what is unique about the service
+                offered by the requested vendor as compared to other vendors.  Provide a list of all of the other
+                providers of similar services that you have evaluated and indicate the features that do not measure
+                up to the requested service.</li>
+        </ul>
+
+        <p>To insure the timely processing of your request, please be thorough. The larger the dollar value, the more 
+            detailed the justification needs to be. </p>
+
+
+        <p>Please complete the following form and return to Leslie Cote in Purchasing, Unit 6076. </p>
+
+        <p>Rev. 2/2010</p>
+
+    </div>
+
+    <div id="full-page">
+        <h2 class="center bottom-margin">Sole Source Justification</h2>
+
+
+        <div id="row1" class="row">
+            <h4 class="bottom-margin">Date:</h4>
+            <p class="bottom-margin" id="input-date">&nbsp;</p>
+        </div>
+
+
+        <div id="row2" >
+            <h3 class="bottom-margin">To:</h3>
+
+            <table id="table1">
+                <tr>
+                    <th>Name:</th>
+                    <th>Title:</th>
+                </tr>
+
+                <tr>
+                    <td id="input-name-to">&nbsp;</td>
+                    <td id="input-title-to">&nbsp;</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Location:</th>
+                </tr>
+                <tr>
+                    <td id="input-location-to" colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+
+            
+
+            
+        </div>
+
+        <div id="row3" >
+            <h3 class="bottom-margin">From:</h3>
+
+            <table id="table1">
+                <tr>
+                    <th>Name:</th>
+                    <th>Title:</th>
+                </tr>
+
+                <tr>
+                    <td id="input-name-from">&nbsp;</td>
+                    <td id="input-title-from">&nbsp;</td>
+                </tr>
+                <tr>
+                    <th>Department:</th>
+                    <th>Unit:</th>
+                </tr>
+                <tr>
+                    <td id="input-department-from">&nbsp;</td>
+                    <td id="input-department-unit">&nbsp;</td>
+                </tr>
+            </table>
+            
+        </div>
+
+
+        <div id="row4" class="row">
+            <h4>Subject: Sole Source Justification for Personal Service Agreement #</h4>
+            <h4 id="input-PSA-num">abcde&nbsp;</h4>
+        </div>
+
+        <p>The following information is offered for the sole source acquisition of services described
+            on the subject Personal Service Agreement. The purchase has been thoroughlt researched and 
+            it has been determined that the vendor/brand is the only accepable ventor/brand for the 
+            services that will fir the particular need.
+        </p>
+
+        <p class="bottom-margin">The service is required to:</p>
+        <p class="box" id="input-service-required">&nbsp;</p>
+
+
+        <p class="bottom-margin">Description of features or capabilities unique to the vendor/brand being requested as related to project requirements:</p>
+        <p class="box" id="input-description-unique">&nbsp;</p>
+
+        
+        <p class="bottom-margin">List all sources investigated to determine that no other source exists for similar services capable of meeting requirements. (Must be
+            exhaustive of all sources for the commodity being purchased.**)</p>
+        <p class="box" id="input-sources">&nbsp;</p>
+
+
+        <p class="bottom-margin"> Provide a side-by-side comparison of the features/service of all other vendors/brands considered.</p>
+        <p class="box" id="input-side-by-side">&nbsp;</p>
+
+
+        <p class="bottom-margin"> The reason for procuring services outside of the University:</p>
+        <p class="box" id="input-reason-for-external-service">&nbsp;</p>
+
+
+        <p class="bottom-margin"> The consequences to the University of NOT entering into the agreement with the contractor:</p>
+        <p class="box" id="input-consequences">&nbsp;</p>
+
+        
+        <h4> **If all sources are not investigated, send complete specifications with the requisition and
+            Purchasing will issue a competitive solicitation.</h4>
+
+        <p>I certify under the penalties of perjury that the above statements are true and precise and that I have no financial or other beneficial
+            interest in the Vendor.</p>
+
+
+        <div id="signature" class="row">
+            <p>Signature:</p>
+            <p id="input-signature">___________________________</p>
+            <p>(requisitioner)</p>
+
+            
+        </div>
+
+        <div class="box row">
+                <p class="top-margin bottom-margin">Printed Name:</p>
+                <p class="top-margin bottom-margin" id="input-print-name">&nbsp;</p>
+        </div>
+
+        <div class="box row">
+            <p class="top-margin bottom-margin" >Title:</p>
+            <p class="top-margin bottom-margin" id="input-signature-title">&nbsp;</p>
+        </div>
+
+        <div class="box row">
+            <p class="top-margin bottom-margin">Date:</p>
+            <p class="top-margin bottom-margin" id="input-signature-date">&nbsp;</p>
+        </div>
+
+    </div>
+
+
+    
+    
+</body>
+</html>
